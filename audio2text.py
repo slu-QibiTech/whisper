@@ -1,7 +1,7 @@
 import os
 import whisper
 
-model = whisper.load_model("turbo")
+model = whisper.load_model("turbo")  # large-v3-turbo
 
 video_folder = "movie"
 audio_folder = "audio"
